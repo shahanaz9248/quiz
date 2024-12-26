@@ -2,6 +2,23 @@
       flex-direction: column;
      align-items: flex-start;}
 
+ .card2{display: flex;
+          flex-direction: column;
+         align-items: center;}
+
+#retake{margin-bottom:5px;
+     width:100px;
+     height:40px;
+    background:white;
+    border:0px;
+    color:rgb(253, 126, 47);
+    font-size:15px;
+    border-radius: 3px;}
+
+#retake:hover{cursor: pointer;
+              background: rgb(253, 126, 47);
+              color: white;}
+
 .opts{display: flex;
      flex-direction: column;
     row-gap: 10px;}
